@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB to Hex Converter</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="showBackground">
+  <div class="container">
+    <div id="RGB-container">
+      <div class="rang-div">
+        <label class="mr-1 red-bgc">R</label>
+        <input id="R-container" class="range-bar" type="range" min="0" max="255" step="1" value="0">
+        <span class="ml-2 red-bgc">0</span>
+      </div>
+      <div class="rang-div">
+        <label class="mr-1 green-bgc">G</label>
+        <input id="G-container" class="range-bar" type="range" min="0" max="255" step="1" value="0">
+        <span class="ml-2 green-bgc">0</span>
+      </div>
+      <div class="rang-div">
+        <label class="mr-1 blue-bgc">B</label>
+        <input id="B-container" class="range-bar" type="range" min="0" max="255" step="1" value="0">
+        <span class="ml-2 blue-bgc">0</span>
+      </div>
+      <div id="hax-output">
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
